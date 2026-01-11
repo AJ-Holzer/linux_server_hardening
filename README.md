@@ -70,7 +70,7 @@ ssh-copy-id yourusername@yourserverip
 #### Set up Fail2Ban on the server
 **Install and enable:**
 ```shell
-sudo apt install fail2ban
+sudo apt install fail2ban -y
 sudo systemctl enable --now fail2ban
 ```
 
@@ -80,11 +80,6 @@ sudo systemctl status fail2ban
 ```
 
 ### Step 4 - Disable Password Authentication
-#### Login to your server again
-```shell
-ssh yourusername@yourserverip
-```
-
 #### Change sshd config
 ```shell
 sudo nano /etc/ssh/sshd_config
@@ -123,7 +118,7 @@ ssh yourusername@yourserverip
 ### Step 5 - Set up Firewall
 #### Install firewall
 ```shell
-sudo apt install ufw
+sudo apt install ufw -y
 ```
 
 #### Open ssh port

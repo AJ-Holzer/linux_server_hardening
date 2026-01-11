@@ -16,7 +16,7 @@ sudo systemctl status unattended-upgrades
 
 ### Step 2 - Create User & add to Sudo Group
 > [!warning]
-> Another user than `root` might already exist on your machine!
+> Another user than `root` might already exist on your machine! If so, you don't need to create an additional one.
 
 #### Add the user
 ```shell

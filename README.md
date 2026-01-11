@@ -63,7 +63,7 @@ scp $env:USERPROFILE/.ssh/id_ed25519.pub yourusername@yourserverip:~/.ssh/author
 
 **On Linux:**
 ```shell
-ssh-copy-id ~/.ssh/id_ed25519.pub yourusername@yourserverip
+ssh-copy-id yourusername@yourserverip
 ```
 
 

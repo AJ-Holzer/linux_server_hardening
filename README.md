@@ -4,7 +4,7 @@
 ### Step 1 - Update Server Automatically
 ```shell
 sudo apt install unattended-upgrades -y
-dpkg-reconfigure --priority=low unattended-upgrades
+sudo dpkg-reconfigure --priority=low unattended-upgrades
 ```
 
 Allow downloading and installing stable updates

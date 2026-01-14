@@ -147,7 +147,7 @@ sudo ufw status
 ssh yourusername@yourserverip
 ```
 
-> [!note] Note
+> [!note]
 > You can close the previous connection if everything works perfectly fine.
 
 #### Block ICMP echo requests (optional)
